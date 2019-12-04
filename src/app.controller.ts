@@ -3,8 +3,8 @@ import { AppService } from './app.service';
 import { FileInterceptor } from '@nestjs/platform-express'
 import * as express from 'express'
 import AWS = require('aws-sdk');
-const ID = 'AKIAIUHWQI25BSNZR52Q';
-const SECRET = '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';
+const ID = '';
+const SECRET = '';
 const BUCKET_NAME = 'fuckshit';
 
 const s3 = new AWS.S3({
