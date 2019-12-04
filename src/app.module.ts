@@ -1,6 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import * as Aws from 'aws-sdk'
+
+
 
 @Module({
   imports: [],
